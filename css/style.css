@@ -1,0 +1,65 @@
+
+.navbar{
+
+    border-bottom: solid 5px red;
+    
+}
+.navbar ul li a{
+    font-weight: 300px;
+
+}
+header{
+    min-height:150vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.416) , rgba(0, 0, 0, 0.416)) , url(../images/5.jpg); 
+    background-position: center;
+    background-size: cover;
+
+
+    padding-top: 300px;
+    
+}
+.meals{
+    margin-bottom: -5px;
+    background-color: black;
+}
+
+.meals img{
+    width: 100%;
+    opacity: .6;
+}
+.meals img:hover{
+     opacity: 1;
+     transition: 1s;
+}
+footer{
+    background-color: rgb(255, 0, 0);
+}
+footer p{
+   color: white;
+   text-align: center;
+   margin-top: 30px;
+}
+ .social-nav {
+    display: flex;
+    list-style: none;
+    margin-right: -300px;
+}
+.social-nav li {
+    margin-right: 20px;
+   
+}
+.social-nav li a:link ,
+.social-nav li a:visited
+{ 
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.social-nav li a:hover ,
+.social-nav li a:active
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 34, 255);
+    text-decoration: underline;
+}
